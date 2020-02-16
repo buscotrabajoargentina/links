@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Links
 
 baseurl: "/links" # the subpath of your site, e.g. /blog
-url: "https://buscotrabajocaba.com" # the base hostname & protocol for your site
+url: "http://buscotrabajocaba.com" # the base hostname & protocol for your site
 
 
 # Build settings
