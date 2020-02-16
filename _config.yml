@@ -1,1 +1,36 @@
-theme: jekyll-theme-cayman
+# Site settings
+title: BuscoTrabajoCABA 
+email: contacto@buscotrabajocaba.com
+description: > # this means to ignore newlines until "baseurl:"
+  Links
+
+baseurl: "/links" # the subpath of your site, e.g. /blog
+url: "https://buscotrabajocaba.com" # the base hostname & protocol for your site
+
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+paginate: 9
+paginate_path: /page:num/
+
+
+# Tracker
+analytics: UA-140961567-1
+
+#social
+
+email: contacto@buscotrabajocaba.com
+
+#facebook like box
+fb-like-box: no
+fb-app-id: 549480635219583
+fb-page-url: https://www.facebook.com/webjeda/
+fb-page-title: webjeda
+
+# Sass style
+sass:
+  style: compressed
+
+# Ruby Gems
+plugins: [jekyll-paginate, jekyll-seo-tag]
